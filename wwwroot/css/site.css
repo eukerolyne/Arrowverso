@@ -1,12 +1,67 @@
-html {
-  font-size: 14px;
+@font-face {
+    font-family: longreach;
+    font-style: normal;
+    font-weight: normal;
+    src: url(longreach.otf);
 }
 
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+@font-face {
+    font-family: CQ Mono;
+    font-style: normal;
+    font-weight: normal;
+    src: url(CQMono.otf);
 }
+
+@font-face {
+    font-family: ClementePDae-Light;
+    font-style: normal;
+    font-weight: normal;
+    src: url(ClementePDae-Light.ttf);
+}
+
+.fonte-estilo-1 {
+    font-family: 'longreach';
+    font-weight: 400;
+    line-height: 1.6;
+    text-shadow: 4px 4px 4px #aaa;
+    color: black;
+}
+
+
+@media (max-width: 575.98px) {
+    html {
+        font-size: 12px;
+    }
+}
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    html {
+        font-size: 13px;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    html {
+        font-size: 14px;
+    }
+}
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    html {
+        font-size: 15px;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    html {
+        font-size: 16px;
+    }
+}	
+
 
 html {
   position: relative;
@@ -15,4 +70,6 @@ html {
 
 body {
   margin-bottom: 60px;
+  background-color: orangered;
+  color: white;
 }
